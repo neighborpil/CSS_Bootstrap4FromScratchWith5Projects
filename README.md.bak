@@ -61,12 +61,3 @@ BLOCKQUOTES
     <cite title="Source Title">Source Title</cite>
   </footer>
 </blockquote>
-
-
-<!-- TEXT TRUNCATE -->    
-<div class="text-truncate">
- - 여러 라인으로 된 글을 한줄로 줄이고 ... 붙인다
-  Lorem, ipsum dolor sit amet consect
-  iure odit, debitis pariatur perspic
-  quos. Sint magni nulla provident et
-</div>
