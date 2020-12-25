@@ -22,6 +22,7 @@ rem: 문서의 최상위 요소 html의 사이즈를 기준으로 배율을 정하겠다는 뜻
 #class=”h1” : 스타일을 h1와 같이 만들어준다
 
 #class=”display-1” : 얇은 글씨체에 글자를 h1보다 매우 크게 만들어준다(6rem)
+ - 1-4까지만 존재
 
 #class=”lead” : 1.25rem, font-weight: 300
 글자를 약간 가늘고, 크게 만들어 주목 효과를 준다
@@ -70,3 +71,9 @@ BLOCKQUOTES
   iure odit, debitis pariatur perspic
   quos. Sint magni nulla provident et
 </div>
+
+# list-unstyled
+ - 리스트에서 앞에 점을 없애준다
+
+# list-inline
+ - 리스트를 인라인으로 만들어준다
