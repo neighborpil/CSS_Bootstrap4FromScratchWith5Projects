@@ -19,6 +19,17 @@ em: 상위 요소 크기로 사이즈 결정
 
 rem: 문서의 최상위 요소 html의 사이즈를 기준으로 배율을 정하겠다는 뜻
 
+# 부트스트랩4 media query 사이즈
+ - xs(.col-): < 576px
+ - sm(.col-sm-): >= 576px(컨테이너 너비: 540px)
+ - md(.col-md-): >= 768px(컨테이너 너비: 720px)
+ - lg(.col-lg-): >= 992px(컨테이너 너비: 960px)
+ - xl(.col-xl-): >=1200px(컨테이너 너비: 1140px)
+
+
+=================================================
+
+
 #class=”h1” : 스타일을 h1와 같이 만들어준다
 
 #class=”display-1” : 얇은 글씨체에 글자를 h1보다 매우 크게 만들어준다(6rem)
@@ -77,3 +88,71 @@ BLOCKQUOTES
 
 # list-inline
  - 리스트를 인라인으로 만들어준다
+
+# text-justify
+ - 양쪽 정렬
+
+# text-left
+ - 왼쪽 정렬
+
+# text-right
+ - 오른쪽 정렬
+
+# text-center
+ - 가운데 정렬
+
+# text-sm-right
+ - sm사이즈보다 클 때 우측 정렬
+
+# text-md-right
+ - md사이즈보다 클 때 우측 정렬
+
+# text-lg-right
+ - lg사이즈보다 클 때 우측 정렬
+
+# text-xl-right
+ - xl사이즈보다 클 때 우측 정렬
+
+
+# text-sm-left
+ - sm사이즈보다 클 때 좌측 정렬
+
+# text-md-left
+ - md사이즈보다 클 때 좌측 정렬
+
+# text-lg-left
+ - lg사이즈보다 클 때 좌측 정렬
+
+# text-xl-left
+ - xl사이즈보다 클 때 좌측 정렬
+
+ # text-sm-center
+ - sm사이즈보다 클 때 중앙 정렬
+
+# text-md-center
+ - md사이즈보다 클 때 중앙 정렬
+
+# text-lg-center
+ - lg사이즈보다 클 때 중앙 정렬
+
+# text-xl-center
+ - xl사이즈보다 클 때 중앙 정렬
+
+<!-- VERTICAL ALIGNMENT -->
+ - inline 개체에 사용
+
+# align-baseline
+# align-top
+# align-bottom
+# align-middle
+# align-text-top
+# align-text-bottom
+
+<!-- TURN BLOCK TO INLINE -->
+# d-inline
+
+<!-- TURN INLINE TO BLOCK -->
+# d-block
+
+<!-- INLINE BLOCK -->
+# d-inline-block
