@@ -156,3 +156,122 @@ BLOCKQUOTES
 
 <!-- INLINE BLOCK -->
 # d-inline-block
+
+<!-- FLOATS -->
+ - 좌 우로 띄운다
+
+# float-left
+# float-right
+# float-none
+ - 띄우지 않는다
+
+<!-- RESPONSIVE FLOATS -->
+# float-sm-right
+
+# float-md-right
+
+# float-lg-right
+
+# float-xl-right
+
+# float-XX-left
+
+# float-XX-none
+
+<!-- CLEARFIX -->
+ - 좌우 클리어 효과를 준다
+ - 부모에 줘야 한다
+ - 자식은 float-left, float-right 속성을 가진다
+
+# clearfix
+
+<!-- FIXED TOP -->
+ - 화면에 상단에 고정
+
+# fixed-top
+
+<!-- FIXED STICKY -->
+ - 스크롤 도중 화면의 최상단에 도달하면 고정된다
+
+# sticky-top
+
+<!-- FIXED BOTTOM -->
+ - 바닥에 항상 고정시킨다
+
+# fixed-bottom
+
+<!-- TEXT COLORS -->
+# text-XX
+ - 글자색
+ - primary, secondary, success, info, warning, danger, light, dark, whtie, mute
+ - text-black-50 : rgba(0, 0, 0, .5)
+
+<!-- BACKGROUND COLORS -->
+# bg-XX
+ - 배경색
+ - primary, secondary, success, info, warning, danger, light, dark, whtie
+ - transparent
+
+<!-- INVISIBLE -->
+# invisible
+ - 안보임,
+ - display-none
+
+<!-- MARGIN -->
+
+# mX - 숫자
+ - b : bottom
+ - t : top
+ - l : left
+ - r : right
+ - x : left, right
+ - y : top, bottom
+ - blank : bottom, top, left, right
+
+<!-- PADDING -->
+# PX - 숫자
+ - b : bottom
+ - t : top
+ - l : left
+ - r : right
+ - x : left, right
+ - y : top, bottom
+ - blank : bottom, top, left, right
+
+<!-- HORIZONTAL CENTERING -->
+# mx-auto
+ - 가운데 정렬
+ - margin-left: auto; margin-right: auto;
+
+<!-- WIDTH CLASSES -->
+# w-XX
+ - 25, 50, 75, 100(이 외에는 안됨)
+ - auto
+
+<!-- WIDTH CLASSES -->
+# h-XX
+ - 25, 50, 75, 100(이 외에는 안됨)
+ - auto
+
+<!-- BORDERS -->
+# border-XX
+ - top, left, right, bottom
+ - 그냥 border 쓰면 전체
+
+<!-- BORDER COLORS -->
+# border-XX
+ - primary, secondary, success, info, warning, danger, light, dark, white
+
+<!-- BORDER RADIUS -->
+# rounded-XX
+ - -XX없으면 전체
+ - top, left, bottom, right
+ - rounded-0
+
+<!-- Custom Media Query -->
+
+@media (min-width: 576px) {
+    body {
+        background: red;
+    }
+}
