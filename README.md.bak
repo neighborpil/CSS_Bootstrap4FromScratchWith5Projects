@@ -267,3 +267,11 @@ BLOCKQUOTES
  - -XX없으면 전체
  - top, left, bottom, right
  - rounded-0
+
+<!-- Custom Media Query -->
+
+@media (min-width: 576px) {
+    body {
+        background: red;
+    }
+}
