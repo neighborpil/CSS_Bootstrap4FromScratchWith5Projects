@@ -276,3 +276,73 @@ BLOCKQUOTES
     }
 }
 
+# btn
+ - 버튼
+
+# btn-XX
+ - primary, secondary, success, info, warning, danger, light, dark, link
+ - 버튼으로 변경 가능한 것: a, button, input type="button", input type="submit", input type="reset"
+
+# btn-outline-XX
+ - 흰색 버튼에 테두리 색깔이 다름
+ - primary, secondary, success, info, warning, danger, light, dark, link
+
+[버튼 사이즈]
+# btn-XX
+ - lg: 크게
+ - sm: 작게
+ - block: 블록처럼 라인 전체
+
+[버튼 액티브]
+# active
+ - 버튼을 누른것 처럼 됨
+
+# disabled
+ - 버튼이 해제된것 처럼 보임
+
+[토글 버튼]
+ - class="btn btn-primary" data-toggle="button"
+
+# btn-group
+ - 내부에 있는 버튼들을 그룹을 만들어 준다
+ - 양쪽에 라운드처리되나, 중간 버튼은 라운드 처리 되지 않아 세트 처럼 보인다
+
+# btn-toolbar
+ - 버튼 그룹을 모아서 툴바 생성
+
+# btn-group-vertical
+ - 내부에 있는 버튼들을 그룹을 만들어 세로로 정렬한다
+ - 양쪽에 라운드처리되나, 중간 버튼은 라운드 처리 되지 않아 세트 처럼 보인다
+
+[드랍다운 버튼]
+# dropdown
+ - 드랍다운 버튼 생성하고, 아래 div에 dropdown-menu, dropdown-item을 생성한다
+ - 드랍다운 버튼에 class="btn btn-primary dropdown-toggle" data-topggle="dropdown"을 추가해야 한다
+ - 구분자는 class="dropdown-divider"로
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
