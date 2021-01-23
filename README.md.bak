@@ -25,7 +25,35 @@ rem: 문서의 최상위 요소 html의 사이즈를 기준으로 배율을 정하겠다는 뜻
  - md(.col-md-): >= 768px(컨테이너 너비: 720px)
  - lg(.col-lg-): >= 992px(컨테이너 너비: 960px)
  - xl(.col-xl-): >=1200px(컨테이너 너비: 1140px)
+=================================================
+# SCSS 컴파일러
+ - http://koala-app.com/ 
 
+# 부트스트랩 4.5.3 소스코드 다운로드 경로
+
+ - https://getbootstrap.com/docs/4.5/getting-started/download/
+
+# Lightbox for Bootstrap
+ - http://ashleydw.github.io/lightbox
+ - 이미지 링크를 갤러리 스타일로 만들어 주는 시스템
+ - css cdn
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+ - js cdn
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous"></script>
+ - js min cdn
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+
+# Slick slider
+ - http://kenwheeler.github.io/slick/
+ - 가로 슬라이더
+ - css cdn
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+ - css min cdn
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+ - js cdn
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous"></script>
+ - js min cdn
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous"></script>
 
 =================================================
 
@@ -301,9 +329,24 @@ BLOCKQUOTES
  - 버튼이 해제된것 처럼 보임
 
 [토글 버튼]
- - class="btn btn-primary" data-toggle="button 
+ - class="btn btn-primary" data-toggle="button"
 
+# btn-group
+ - 내부에 있는 버튼들을 그룹을 만들어 준다
+ - 양쪽에 라운드처리되나, 중간 버튼은 라운드 처리 되지 않아 세트 처럼 보인다
 
+# btn-toolbar
+ - 버튼 그룹을 모아서 툴바 생성
+
+# btn-group-vertical
+ - 내부에 있는 버튼들을 그룹을 만들어 세로로 정렬한다
+ - 양쪽에 라운드처리되나, 중간 버튼은 라운드 처리 되지 않아 세트 처럼 보인다
+
+[드랍다운 버튼]
+# dropdown
+ - 드랍다운 버튼 생성하고, 아래 div에 dropdown-menu, dropdown-item을 생성한다
+ - 드랍다운 버튼에 class="btn btn-primary dropdown-toggle" data-topggle="dropdown"을 추가해야 한다
+ - 구분자는 class="dropdown-divider"로
 
 
 
