@@ -59,6 +59,28 @@ rem: 문서의 최상위 요소 html의 사이즈를 기준으로 배율을 정하겠다는 뜻
  - js min cdn
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous"></script>
 
+# CKEditor
+ - https://cdn.ckeditor.com/
+ - 정말 손쉽게 텍스트 에디터를 넣을 수 있다
+ - CDN을 추가하고, 아래의 소스 한줄만 스크립트에 넣으면 된다
+   <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
+   CKEDITOR.replace( 'editor1' );
+
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <title>CKEditor</title>
+                <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
+        </head>
+        <body>
+                <textarea name="editor1"></textarea>
+                <script>
+                        CKEDITOR.replace( 'editor1' );
+                </script>
+        </body>
+</html>
+
 =================================================
 
 
